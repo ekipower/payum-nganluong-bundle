@@ -1,0 +1,14 @@
+contexts:
+    nganluong:
+        nganluong:
+            merchant_id:        %nganluong.merchant_id%
+            merchant_password:  %nganluong.merchant_password%
+            receiver_email:     %nganluong.receiver_email%
+            sandbox:            %nganluong.sandbox%
+
+    nganluong_onsite:
+        nganluong_onsite:
+            merchant_id:        %nganluong.merchant_id%
+            merchant_password:  %nganluong.merchant_password%
+            receiver_email:     %nganluong.receiver_email%
+            sandbox:            %nganluong.sandbox%
