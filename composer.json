@@ -12,6 +12,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
+		"ekipower/symfony-helper":	"dev-master",
 		"ekipower/payum-nganluong": "dev-master"
     },
     "config": {
