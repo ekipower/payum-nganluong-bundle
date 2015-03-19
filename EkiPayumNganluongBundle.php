@@ -11,7 +11,6 @@
 namespace Eki\Payum\NganluongBundle;
 
 use Eki\Payum\NganluongBundle\Payum\Nganluong\NganluongPaymentFactory;
-use Eki\Payum\NganluongBundle\Payum\Nganluong\NganluongOnsitePaymentFactory;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -26,6 +25,5 @@ class EkiPayumNganluongBundle extends Bundle
         $extension = $container->getExtension('payum');
 
         $extension->addPaymentFactory(new NganluongPaymentFactory);
-        $extension->addPaymentFactory(new NganluongOnsitePaymentFactory);
     }
 }
